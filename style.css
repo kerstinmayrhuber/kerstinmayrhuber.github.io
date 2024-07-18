@@ -1,0 +1,58 @@
+html {
+    font-size: 16px;
+    font-family: "Roboto";
+    background-color: rgb(237, 240, 202);
+}
+
+nav {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 100;
+    display: flex;
+    justify-content: right;
+
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: right;
+    margin-left: 1em;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    color: whitE;
+
+    letter-spacing: 0.3rem;
+}
+
+#introduction {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+#descriptionIntroduction {
+    color: white;
+}
+
+
+#introduction img {
+    padding-left: 8em;
+
+}
+
+footer a {
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 100;
+    display: flex;
+    justify-content: right;
+    padding-top: 9rem;
+}
