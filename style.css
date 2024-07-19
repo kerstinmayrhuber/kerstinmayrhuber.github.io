@@ -17,13 +17,13 @@ nav li {
     display: inline-flex;
     justify-content: right;
     margin-left: 1em;
+
 }
 
 h1 {
     font-weight: 900;
     font-size: 4rem;
     color: whitE;
-
     letter-spacing: 0.3rem;
 }
 
@@ -55,4 +55,39 @@ footer a {
     display: flex;
     justify-content: right;
     padding-top: 9rem;
+}
+
+/* Standard-Link-Stil */
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    /* Hintergrundfarbe des Links */
+    border: 1px solid transparent;
+    /* Rahmenfarbe des Links */
+    padding: 2px 4px;
+    /* Innenabstand des Links */
+    border-radius: 4px;
+    /* Abgerundete Ecken */
+}
+
+/* Hover-Stil */
+a:hover {
+    color: #ffffff;
+    /* Textfarbe beim Überfahren */
+    background-color: #000000;
+    /* Hintergrundfarbe beim Überfahren */
+    border-color: #000000;
+    /* Rahmenfarbe beim Überfahren */
+}
+
+/* Visited-Stil */
+
+/* Active-Stil */
+a:active {
+    color: #ffffff;
+    background-color: #5d5d5d;
+    /* Hintergrundfarbe beim Klicken */
+    border-color: #5d5d5d;
+    /* Rahmenfarbe beim Klicken */
 }
